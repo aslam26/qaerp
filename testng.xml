@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <!--
+    <test name="Test">
+        <parameter name="environment" value="local"></parameter>
+        <classes>
+            <class name="tests.Verify_Login"/>
+            <class name="tests.Verify_New_Employee_is_Added"></class>
+        </classes>
+    </test> -->
+
+    <test name="Test PROD">
+        <parameter name="environment" value="PROD"></parameter>
+        <classes>
+            <class name="tests.Verify_Add_Cart"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
